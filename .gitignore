@@ -25,3 +25,6 @@ Manifest.toml
 
 # System files
 .DS_Store
+
+# Video files
+*.mp4
