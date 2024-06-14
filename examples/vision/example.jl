@@ -60,7 +60,7 @@ canvas = renderer(domain, state)
 
 # Save the canvas to a file
 println("Saving initial state to file")
-save("gridworld_initial_state.png", canvas)
+save("examples/vision/initial_state.png", canvas)
 
 
 #--- Visualize Plans ---#
@@ -90,4 +90,4 @@ canvas = renderer(canvas, domain, state, sol, show_trajectory=false)
 anim = anim_plan(renderer, domain, state, plan;
                  format="gif", framerate=5, trail_length=10)
 
-save("vision.mp4", anim)
+save("examples/vision/plan.mp4", anim)
