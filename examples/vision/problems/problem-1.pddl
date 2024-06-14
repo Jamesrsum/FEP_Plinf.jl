@@ -3,7 +3,6 @@
     (:objects
         carrot1 - carrot onion1 - onion)
     (:init
-        (= (viewdistance) 2)
         (= (xloc carrot1) 4)
         (= (yloc carrot1) 4)
         (= (xloc onion1) 3)

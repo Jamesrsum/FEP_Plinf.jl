@@ -9,7 +9,7 @@
     (:functions 
         (xpos) (ypos) - integer
         (xloc ?o - object) (yloc ?o - object) - integer
-        (walls) (viewdistance) - bit-matrix
+        (walls)- bit-matrix
     )
     (:action pickup
         :parameters (?i - item)
